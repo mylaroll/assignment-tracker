@@ -1,10 +1,9 @@
 import Assignment from "./Assignment.jsx";
-import assignments from "../data/assignments.js";
 
-function AssignmentList(){
+function AssignmentList({assignmentsArray}){
     return (
         <div className="assignmentContainer">
-            {assignments.map((item) => (
+            {assignmentsArray.map((item) => (
                 <Assignment
                     key={item.id}
                     title={item.title}

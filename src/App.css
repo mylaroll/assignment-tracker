@@ -35,6 +35,13 @@ main {
     column-gap: 40px;
 }
 
+.addAssignment{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 15px;
+    column-gap: 40px;
+}
+
 .status{
     background: rgba(214, 4, 43, 0);
     &:hover{

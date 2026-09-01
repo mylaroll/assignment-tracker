@@ -1,4 +1,4 @@
-const assignments = [
+const testAssignments = [
     {
         id: 1,
         title: "Database Homework",
@@ -28,4 +28,4 @@ const assignments = [
     }
 ];
 
-export default assignments;
+export default testAssignments;
